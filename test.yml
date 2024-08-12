@@ -1,0 +1,9 @@
+---
+- name: Deploy Application
+  hosts: win
+  vars_files:
+    - secrets.yml
+  tasks:
+    - name: Print secret message
+      debug:
+        msg: "{{ secret_message }}"
