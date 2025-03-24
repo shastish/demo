@@ -1,5 +1,5 @@
 ---
-- name: Deploy Application
+- name: Deploy Application for Testing
   hosts: win
   vars_files:
     - secrets.yml
