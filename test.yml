@@ -4,6 +4,6 @@
   vars_files:
     - secrets.yml
   tasks:
-    - name: Print secret message
+    - name: Print secret message to test
       debug:
         msg: "{{ secret_message }}"
